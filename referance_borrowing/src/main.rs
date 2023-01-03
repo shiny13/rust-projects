@@ -35,6 +35,6 @@ fn calculate_length(s: &String) -> usize {
   // what it refers to, nothing happens.
   // when referencing a variable, it is immutable by default and cannot be changed
 
-  fn change(some_string: &mut String) { 
+fn change(some_string: &mut String) { 
     some_string.push_str(", world");
 }
